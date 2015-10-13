@@ -34,7 +34,7 @@ Example `i.kx-icon.kx-cross-device`
 
 * Clone project
   ```
-  git clone https://github.com/krux/kx-icon-font.git
+  git clone git@github.com:krux/kx-icon-font.git
   ```
 * Install dependencies
   ```
