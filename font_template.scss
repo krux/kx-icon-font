@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "<%= fontBaseName %>";
+  src: url("#{$kx-font-path}/<%= fontBaseName %>.eot");
+  src: url("#{$kx-font-path}/<%= fontBaseName %>.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/<%= fontBaseName %>.woff") format("woff"),
+    url("#{$kx-font-path}/<%= fontBaseName %>.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kx-icon {
+  font-family: "<%= fontBaseName %>";
+  display: inline-block;
+  font-style: normal;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+<% if (iconsStyles) { %>/* Icons */<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+.kx-<%= glyphs[glyphIdx] %>:before { content: "\<%= codepoints[glyphIdx] %>"; }<% } %><% } %>
