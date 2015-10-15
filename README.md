@@ -32,7 +32,7 @@ Example `i.kx-icon.kx-cross-device`
 
 ## Contributing
 
-* Clone project
+* Clone the project
   ```
   git clone git@github.com:krux/kx-icon-font.git
   ```
@@ -40,6 +40,6 @@ Example `i.kx-icon.kx-cross-device`
   ```
   npm install
   ```
-* Add new *.svg icons folder without kx- in name
-* Run grunt task `gen_font`
-* Push changes to remote folder
+* Put new *.svg icons into `image` folder without `kx-` in the name
+* Run `grunt`
+* Commit your changes to the remote repository

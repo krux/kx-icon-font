@@ -18,5 +18,5 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-webfont');
 
-  grunt.registerTask('gen_font', ['webfont'])
+  grunt.registerTask('default', ['webfont'])
 }

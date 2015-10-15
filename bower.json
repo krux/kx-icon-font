@@ -1,4 +1,13 @@
 {
 	"name": "kx-icon-font",
 	"version": "0.0.1"
+	"main": [
+		"./dist/kx-icon-font.eot",
+		"./dist/_kx-icon-font.scss",
+		"./dist/kx-icon-font.ttf",
+		"./dist/kx-icon-font.woff"
+	],
+	"ignore": [
+		"node_modules"
+	]
 }
