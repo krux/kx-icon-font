@@ -1,6 +1,6 @@
 {
 	"name": "kx-icon-font",
-	"version": "0.0.1"
+	"version": "0.0.1",
 	"main": [
 		"./dist/kx-icon-font.eot",
 		"./dist/_kx-icon-font.scss",
