@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" xmlns:cc="http://creativecommons.org/ns#" viewBox="0 0 104 104" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata30">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Custom-Reports Copy</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+<!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+ <title id="title4">Custom-Reports Copy</title>
+ <desc id="desc6">Created with Sketch.</desc>
+ <rect id="Rectangle-path" fill-rule="evenodd" sketch:type="MSShapeGroup" height="1.2623" width="25.3" y="59.172" x="39.12"/>
+ <rect id="rect13" fill-rule="evenodd" sketch:type="MSShapeGroup" height="1.2623" width="25.3" y="54.123" x="39.12"/>
+ <rect id="rect15" fill-rule="evenodd" sketch:type="MSShapeGroup" height="1.2623" width="25.3" y="64.221" x="39.12"/>
+ <rect id="rect17" fill-rule="evenodd" sketch:type="MSShapeGroup" height="1.2623" width="25.3" y="49.074" x="39.12"/>
+ <path id="path20" d="m39.12 44.025v1.2623h18.174c-0.53636-0.39005-1.0474-0.81166-1.5332-1.2623h-16.641z" fill-rule="evenodd" sketch:type="MSShapeGroup" fill="#474647"/>
+ <path id="Shape-2" fill-rule="evenodd" d="m32.795 24.459c-2.096 0-3.795 1.695-3.795 3.787v47.967c0 2.092 1.699 3.787 3.795 3.787h37.949c2.096 0 3.795-1.695 3.795-3.787v-47.967c-0.807 0.422-1.651-0.284-2.529 0v47.967c0 0.695-0.569 1.262-1.266 1.262h-37.949c-0.697 0-1.266-0.567-1.266-1.262v-47.967c0-0.695 0.569-1.262 1.266-1.262h37.35c0.284-0.876 0.177-1.72 0.599-2.525h-37.949z"/>
+ <path id="Shape-1" d="m48.837 81.475h-20.042c-0.69702 0-1.265-0.56677-1.265-1.2623v-47.967c0-0.69552 0.56798-1.2623 1.265-1.2623 0.28462-0.87603 1.2508-1.7192 1.6733-2.5246h-1.6733c-2.0961 0-3.795 1.6953-3.795 3.7869v47.967c0 2.092 1.699 3.787 3.795 3.787h37.95c2.0961 0 3.795-1.6953 3.795-3.7869-0.80707 0.4216-1.6521-0.28402-2.53-0.000002l-0.8535 0.82961c0 0.69552-17.622 0.43268-18.319 0.43268z" fill-rule="evenodd" sketch:type="MSShapeGroup"/>
+ <path id="path26" d="m51 0.812c-27.674 0-50.188 22.514-50.188 50.188s22.514 50.19 50.188 50.19 50.19-22.516 50.19-50.19-22.516-50.188-50.19-50.188zm0 97.876c-26.295 0-47.688-21.393-47.688-47.688s21.393-47.688 47.688-47.688c26.296 0 47.688 21.393 47.688 47.688s-21.392 47.688-47.688 47.688z" fill-rule="evenodd" sketch:type="MSShapeGroup"/>
+ <rect id="rect4318" fill-rule="evenodd" sketch:type="MSShapeGroup" height="1.2623" width="25.3" y="39.018" x="39.12"/>
+ <rect id="rect4341" fill-rule="evenodd" sketch:type="MSShapeGroup" height="1.2623" width="25.3" y="44.024" x="39.12"/>
+ <path id="path4364" fill-rule="evenodd" d="m32.795 80c-2.096 0-3.795-1.695-3.795-3.787v-47.967c0-2.0916 1.6988-3.7871 3.7949-3.7871h37.949c2.0961 0 3.7949 1.6955 3.7949 3.7871v47.967c-0.80707-0.42161-1.6514 0.28402-2.5293 0v-47.967c0-0.69552-0.56861-1.2617-1.2656-1.2617h-37.949c-0.69702 0-1.2656 0.56619-1.2656 1.2617v47.967c0 0.69552 0.56861 1.2617 1.2656 1.2617h37.35c0.28463 0.87603 0.1771 1.72 0.59961 2.5254h-37.949z"/>
+</svg>
