@@ -1,9 +1,9 @@
 @font-face {
   font-family: "<%= fontBaseName %>";
-  src: url("#{$kx-font-path}/<%= fontBaseName %>.eot");
-  src: url("#{$kx-font-path}/<%= fontBaseName %>.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/<%= fontBaseName %>.woff") format("woff"),
-    url("#{$kx-font-path}/<%= fontBaseName %>.ttf") format("truetype");
+  src: url("#{$kx-font-path}/<%= fontFilename %>.eot");
+  src: url("#{$kx-font-path}/<%= fontFilename %>.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/<%= fontFilename %>.woff") format("woff"),
+    url("#{$kx-font-path}/<%= fontFilename %>.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

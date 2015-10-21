@@ -2,7 +2,8 @@
   "name": "kx-icon-font",
   "version": "0.0.0",
   "devDependencies": {
-    "grunt": "0.4.5",
+    "grunt": "^0.4.5",
+    "grunt-git": "^0.3.5",
     "grunt-webfont": "^0.5.4"
   },
   "engines": {
