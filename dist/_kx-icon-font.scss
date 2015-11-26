@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-c254bc52f5f6f12835bf6d90d4a697a2.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-c254bc52f5f6f12835bf6d90d4a697a2.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-c254bc52f5f6f12835bf6d90d4a697a2.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-c254bc52f5f6f12835bf6d90d4a697a2.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-c0405bd9f27ff21c150abf7987031919.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-c0405bd9f27ff21c150abf7987031919.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-c0405bd9f27ff21c150abf7987031919.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-c0405bd9f27ff21c150abf7987031919.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -21,8 +21,9 @@
 .kx-cross-device:before { content: "\f102"; }
 .kx-icon-cross-device:before { content: "\f103"; }
 .kx-icon-infinity:before { content: "\f104"; }
-.kx-icon-report-h:before { content: "\f105"; }
-.kx-icon-report:before { content: "\f106"; }
-.kx-icon-standard-segment-h:before { content: "\f107"; }
-.kx-icon-standard-segment:before { content: "\f108"; }
-.kx-mail:before { content: "\f109"; }
+.kx-icon-link-brand:before { content: "\f105"; }
+.kx-icon-report-h:before { content: "\f106"; }
+.kx-icon-report:before { content: "\f107"; }
+.kx-icon-standard-segment-h:before { content: "\f108"; }
+.kx-icon-standard-segment:before { content: "\f109"; }
+.kx-mail:before { content: "\f10a"; }
