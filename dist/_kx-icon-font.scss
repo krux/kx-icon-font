@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-4dd9735669c6a919438a7ea5639614ef.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-4dd9735669c6a919438a7ea5639614ef.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-4dd9735669c6a919438a7ea5639614ef.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-4dd9735669c6a919438a7ea5639614ef.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-0858c9e08a207a3c4ed0956c22a59e70.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-0858c9e08a207a3c4ed0956c22a59e70.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-0858c9e08a207a3c4ed0956c22a59e70.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-0858c9e08a207a3c4ed0956c22a59e70.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,13 +17,25 @@
 }
 
 // Icons
-.kx-cross-device-w:before { content: "\f101"; }
-.kx-cross-device:before { content: "\f102"; }
-.kx-icon-cross-device:before { content: "\f103"; }
-.kx-icon-infinity:before { content: "\f104"; }
-.kx-icon-link-brand:before { content: "\f105"; }
-.kx-icon-report-h:before { content: "\f106"; }
-.kx-icon-report:before { content: "\f107"; }
-.kx-icon-standard-segment-h:before { content: "\f108"; }
-.kx-icon-standard-segment:before { content: "\f109"; }
-.kx-mail:before { content: "\f10a"; }
+.kx-bar-chart:before { content: "\f101"; }
+.kx-cog:before { content: "\f102"; }
+.kx-cogs:before { content: "\f103"; }
+.kx-cross-device-w:before { content: "\f104"; }
+.kx-cross-device:before { content: "\f105"; }
+.kx-devices:before { content: "\f106"; }
+.kx-icon-cross-device:before { content: "\f107"; }
+.kx-icon-infinity:before { content: "\f108"; }
+.kx-icon-link-brand:before { content: "\f109"; }
+.kx-icon-report-h:before { content: "\f10a"; }
+.kx-icon-report:before { content: "\f10b"; }
+.kx-icon-standard-segment-h:before { content: "\f10c"; }
+.kx-icon-standard-segment:before { content: "\f10d"; }
+.kx-info:before { content: "\f10e"; }
+.kx-interchange:before { content: "\f10f"; }
+.kx-line-chart:before { content: "\f110"; }
+.kx-link:before { content: "\f111"; }
+.kx-mail:before { content: "\f112"; }
+.kx-notifications:before { content: "\f113"; }
+.kx-pin:before { content: "\f114"; }
+.kx-population:before { content: "\f115"; }
+.kx-supertag:before { content: "\f116"; }
