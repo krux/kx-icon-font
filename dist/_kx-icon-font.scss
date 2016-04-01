@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-0adedfbe2e7e45fdddd4e8e5d8ea7d1b.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-0adedfbe2e7e45fdddd4e8e5d8ea7d1b.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-0adedfbe2e7e45fdddd4e8e5d8ea7d1b.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-0adedfbe2e7e45fdddd4e8e5d8ea7d1b.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-ceaefb10346278e43f7a91f22d150ff8.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-ceaefb10346278e43f7a91f22d150ff8.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-ceaefb10346278e43f7a91f22d150ff8.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-ceaefb10346278e43f7a91f22d150ff8.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,22 +20,24 @@
 .kx-cross-device-w:before { content: "\f101"; }
 .kx-cross-device:before { content: "\f102"; }
 .kx-icon-bar-chart:before { content: "\f103"; }
-.kx-icon-cog:before { content: "\f104"; }
-.kx-icon-cogs:before { content: "\f105"; }
-.kx-icon-cross-device:before { content: "\f106"; }
-.kx-icon-devices:before { content: "\f107"; }
-.kx-icon-infinity:before { content: "\f108"; }
-.kx-icon-info:before { content: "\f109"; }
-.kx-icon-interchange:before { content: "\f10a"; }
-.kx-icon-line-chart:before { content: "\f10b"; }
-.kx-icon-link-brand:before { content: "\f10c"; }
-.kx-icon-link:before { content: "\f10d"; }
-.kx-icon-notifications:before { content: "\f10e"; }
-.kx-icon-pin:before { content: "\f10f"; }
-.kx-icon-population:before { content: "\f110"; }
-.kx-icon-report-h:before { content: "\f111"; }
-.kx-icon-report:before { content: "\f112"; }
-.kx-icon-standard-segment-h:before { content: "\f113"; }
-.kx-icon-standard-segment:before { content: "\f114"; }
-.kx-icon-supertag:before { content: "\f115"; }
-.kx-mail:before { content: "\f116"; }
+.kx-icon-chevron-down:before { content: "\f104"; }
+.kx-icon-chevron-up:before { content: "\f105"; }
+.kx-icon-cog:before { content: "\f106"; }
+.kx-icon-cogs:before { content: "\f107"; }
+.kx-icon-cross-device:before { content: "\f108"; }
+.kx-icon-devices:before { content: "\f109"; }
+.kx-icon-infinity:before { content: "\f10a"; }
+.kx-icon-info:before { content: "\f10b"; }
+.kx-icon-interchange:before { content: "\f10c"; }
+.kx-icon-line-chart:before { content: "\f10d"; }
+.kx-icon-link-brand:before { content: "\f10e"; }
+.kx-icon-link:before { content: "\f10f"; }
+.kx-icon-notifications:before { content: "\f110"; }
+.kx-icon-pin:before { content: "\f111"; }
+.kx-icon-population:before { content: "\f112"; }
+.kx-icon-report-h:before { content: "\f113"; }
+.kx-icon-report:before { content: "\f114"; }
+.kx-icon-standard-segment-h:before { content: "\f115"; }
+.kx-icon-standard-segment:before { content: "\f116"; }
+.kx-icon-supertag:before { content: "\f117"; }
+.kx-mail:before { content: "\f118"; }
