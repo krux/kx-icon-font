@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-ceaefb10346278e43f7a91f22d150ff8.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-ceaefb10346278e43f7a91f22d150ff8.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-ceaefb10346278e43f7a91f22d150ff8.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-ceaefb10346278e43f7a91f22d150ff8.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-e8d7ea0c181b196cda9e5f8f6a8b98d7.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-e8d7ea0c181b196cda9e5f8f6a8b98d7.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-e8d7ea0c181b196cda9e5f8f6a8b98d7.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-e8d7ea0c181b196cda9e5f8f6a8b98d7.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -37,7 +37,13 @@
 .kx-icon-population:before { content: "\f112"; }
 .kx-icon-report-h:before { content: "\f113"; }
 .kx-icon-report:before { content: "\f114"; }
-.kx-icon-standard-segment-h:before { content: "\f115"; }
-.kx-icon-standard-segment:before { content: "\f116"; }
-.kx-icon-supertag:before { content: "\f117"; }
-.kx-mail:before { content: "\f118"; }
+.kx-icon-st-composite:before { content: "\f115"; }
+.kx-icon-st-heartbeat:before { content: "\f116"; }
+.kx-icon-st-kognitive:before { content: "\f117"; }
+.kx-icon-st-realtime:before { content: "\f118"; }
+.kx-icon-st-standard:before { content: "\f119"; }
+.kx-icon-st-transaction:before { content: "\f11a"; }
+.kx-icon-standard-segment-h:before { content: "\f11b"; }
+.kx-icon-standard-segment:before { content: "\f11c"; }
+.kx-icon-supertag:before { content: "\f11d"; }
+.kx-mail:before { content: "\f11e"; }

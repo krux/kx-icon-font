@@ -2,11 +2,13 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-  width="951px" height="1024px" viewBox="0 0 951 1024" enable-background="new 0 0 951 1024" xml:space="preserve">
+	 width="951px" height="1024px" viewBox="0 0 951 1024" enable-background="new 0 0 951 1024" xml:space="preserve">
 <g>
-  <polygon points="515.201,447.975 433.5,339.162 215.531,339.162 398.819,98.106 229.728,98.106 6.729,391.39 229.718,684.673 
-    398.81,684.673 218.845,447.975  "/>
-  <polygon points="721.29,339.328 552.181,339.328 733.807,578.213 453.096,578.213 534.799,687.018 733.807,687.018 
-    552.181,925.894 721.29,925.894 944.271,632.611  "/>
+	<g id="icomoon-ignore">
+	</g>
+	<polygon points="437.614,460.566 515.597,373.151 723.663,373.151 548.698,179.5 710.093,179.5 922.964,415.109 710.106,650.717 
+		548.698,650.717 720.489,460.566 	"/>
+	<polygon points="240.878,373.285 402.302,373.285 228.924,565.186 496.895,565.186 418.896,652.6 228.924,652.6 402.302,844.5 
+		240.878,844.5 28.037,608.893 	"/>
 </g>
 </svg>
