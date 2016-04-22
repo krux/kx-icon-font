@@ -11,9 +11,8 @@ This plugin requires Grunt 0.4.
 ###OS X
 
 ```
-brew install ttfautohint --with-python
+brew install fontforge
 ```
-*You may need to use `sudo` for `brew`, depending on your setup.*
 
 ###Linux
 
@@ -40,6 +39,6 @@ Example `i.kx-icon.kx-cross-device`
   ```
   npm install
   ```
-* Put new *.svg icons into `image` folder without `kx-` in the name
-* Run `grunt`
+* Put new *.svg icons into `icons` folder without `kx-` in the name
+* Run `./node_modules/.bin/grunt`
 * Commit your changes to the remote repository

@@ -15,17 +15,17 @@ module.exports = function(grunt) {
         }
       }
     },
-    gitrm: {
-      your_target: {
-        files:{
-          src: ['dist/*.eot', 'dist/*.woff', 'dist/*.ttf']
+    clean: {
+      dist: {
+        files: {
+          src: ['dist/*', '!dist/*.scss']
         }
-       }
+      }
     }
-  })
+  });
 
   grunt.loadNpmTasks('grunt-webfont');
-  grunt.loadNpmTasks('grunt-git');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('default', ['gitrm', 'webfont'])
-}
+  grunt.registerTask('default', ['clean', 'webfont']);
+};
