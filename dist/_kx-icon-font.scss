@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-1c6e0efcffd8d9a6d8ec02a621893721.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-1c6e0efcffd8d9a6d8ec02a621893721.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-1c6e0efcffd8d9a6d8ec02a621893721.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-1c6e0efcffd8d9a6d8ec02a621893721.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-73deeb3bd8b76d03fc0284f3de701e93.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-73deeb3bd8b76d03fc0284f3de701e93.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-73deeb3bd8b76d03fc0284f3de701e93.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-73deeb3bd8b76d03fc0284f3de701e93.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,18 +32,21 @@
 .kx-icon-line-chart:before { content: "\f10d"; }
 .kx-icon-link-brand:before { content: "\f10e"; }
 .kx-icon-link:before { content: "\f10f"; }
-.kx-icon-notifications:before { content: "\f110"; }
-.kx-icon-pin:before { content: "\f111"; }
-.kx-icon-population:before { content: "\f112"; }
-.kx-icon-report-h:before { content: "\f113"; }
-.kx-icon-report:before { content: "\f114"; }
-.kx-icon-st-composite:before { content: "\f115"; }
-.kx-icon-st-heartbeat:before { content: "\f116"; }
-.kx-icon-st-kognitive:before { content: "\f117"; }
-.kx-icon-st-realtime:before { content: "\f118"; }
-.kx-icon-st-standard:before { content: "\f119"; }
-.kx-icon-st-transaction:before { content: "\f11a"; }
-.kx-icon-standard-segment-h:before { content: "\f11b"; }
-.kx-icon-standard-segment:before { content: "\f11c"; }
-.kx-icon-supertag:before { content: "\f11d"; }
-.kx-mail:before { content: "\f11e"; }
+.kx-icon-mobile-apps:before { content: "\f110"; }
+.kx-icon-notifications:before { content: "\f111"; }
+.kx-icon-pin:before { content: "\f112"; }
+.kx-icon-population:before { content: "\f113"; }
+.kx-icon-report-h:before { content: "\f114"; }
+.kx-icon-report:before { content: "\f115"; }
+.kx-icon-safari:before { content: "\f116"; }
+.kx-icon-st-composite:before { content: "\f117"; }
+.kx-icon-st-heartbeat:before { content: "\f118"; }
+.kx-icon-st-kognitive:before { content: "\f119"; }
+.kx-icon-st-realtime:before { content: "\f11a"; }
+.kx-icon-st-standard:before { content: "\f11b"; }
+.kx-icon-st-transaction:before { content: "\f11c"; }
+.kx-icon-standard-segment-h:before { content: "\f11d"; }
+.kx-icon-standard-segment:before { content: "\f11e"; }
+.kx-icon-supertag:before { content: "\f11f"; }
+.kx-icon-web:before { content: "\f120"; }
+.kx-mail:before { content: "\f121"; }
