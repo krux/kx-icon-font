@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-cb6f7b8d9f914e3ed5a03f411ad57716.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-cb6f7b8d9f914e3ed5a03f411ad57716.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-cb6f7b8d9f914e3ed5a03f411ad57716.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-cb6f7b8d9f914e3ed5a03f411ad57716.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-8f336dd8a37e5fc113927ee2426b5a14.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-8f336dd8a37e5fc113927ee2426b5a14.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-8f336dd8a37e5fc113927ee2426b5a14.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-8f336dd8a37e5fc113927ee2426b5a14.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,43 +19,49 @@
 // Icons
 .kx-cross-device-w:before { content: "\f101"; }
 .kx-cross-device:before { content: "\f102"; }
-.kx-icon-asc:before { content: "\f103"; }
-.kx-icon-bar-chart:before { content: "\f104"; }
-.kx-icon-chevron-down:before { content: "\f105"; }
-.kx-icon-chevron-up:before { content: "\f106"; }
-.kx-icon-cog:before { content: "\f107"; }
-.kx-icon-cogs:before { content: "\f108"; }
-.kx-icon-composite:before { content: "\f109"; }
-.kx-icon-cross-device:before { content: "\f10a"; }
-.kx-icon-desc:before { content: "\f10b"; }
-.kx-icon-devices:before { content: "\f10c"; }
-.kx-icon-heartbeat:before { content: "\f10d"; }
-.kx-icon-infinity:before { content: "\f10e"; }
-.kx-icon-info:before { content: "\f10f"; }
-.kx-icon-interchange:before { content: "\f110"; }
-.kx-icon-line-chart:before { content: "\f111"; }
-.kx-icon-link-brand:before { content: "\f112"; }
-.kx-icon-link-circle:before { content: "\f113"; }
-.kx-icon-link:before { content: "\f114"; }
-.kx-icon-machine-discovered:before { content: "\f115"; }
-.kx-icon-mobile-apps:before { content: "\f116"; }
-.kx-icon-notifications:before { content: "\f117"; }
-.kx-icon-pin:before { content: "\f118"; }
-.kx-icon-population:before { content: "\f119"; }
-.kx-icon-realtime:before { content: "\f11a"; }
-.kx-icon-report-h:before { content: "\f11b"; }
-.kx-icon-report:before { content: "\f11c"; }
-.kx-icon-safari:before { content: "\f11d"; }
-.kx-icon-st-composite:before { content: "\f11e"; }
-.kx-icon-st-heartbeat:before { content: "\f11f"; }
-.kx-icon-st-kognitive:before { content: "\f120"; }
-.kx-icon-st-realtime:before { content: "\f121"; }
-.kx-icon-st-standard:before { content: "\f122"; }
-.kx-icon-st-transaction:before { content: "\f123"; }
-.kx-icon-standard-segment-h:before { content: "\f124"; }
-.kx-icon-standard-segment:before { content: "\f125"; }
-.kx-icon-standard:before { content: "\f126"; }
-.kx-icon-supertag:before { content: "\f127"; }
-.kx-icon-transaction:before { content: "\f128"; }
-.kx-icon-web:before { content: "\f129"; }
-.kx-mail:before { content: "\f12a"; }
+.kx-devices-processing:before { content: "\f103"; }
+.kx-email:before { content: "\f104"; }
+.kx-icon-asc:before { content: "\f105"; }
+.kx-icon-bar-chart:before { content: "\f106"; }
+.kx-icon-chevron-down:before { content: "\f107"; }
+.kx-icon-chevron-up:before { content: "\f108"; }
+.kx-icon-cog:before { content: "\f109"; }
+.kx-icon-cogs:before { content: "\f10a"; }
+.kx-icon-composite:before { content: "\f10b"; }
+.kx-icon-cross-device:before { content: "\f10c"; }
+.kx-icon-desc:before { content: "\f10d"; }
+.kx-icon-devices:before { content: "\f10e"; }
+.kx-icon-heartbeat:before { content: "\f10f"; }
+.kx-icon-infinity:before { content: "\f110"; }
+.kx-icon-info:before { content: "\f111"; }
+.kx-icon-interchange:before { content: "\f112"; }
+.kx-icon-line-chart:before { content: "\f113"; }
+.kx-icon-link-brand:before { content: "\f114"; }
+.kx-icon-link-circle:before { content: "\f115"; }
+.kx-icon-link:before { content: "\f116"; }
+.kx-icon-machine-discovered:before { content: "\f117"; }
+.kx-icon-mobile-apps:before { content: "\f118"; }
+.kx-icon-notifications:before { content: "\f119"; }
+.kx-icon-pin:before { content: "\f11a"; }
+.kx-icon-population:before { content: "\f11b"; }
+.kx-icon-realtime:before { content: "\f11c"; }
+.kx-icon-report-h:before { content: "\f11d"; }
+.kx-icon-report:before { content: "\f11e"; }
+.kx-icon-safari:before { content: "\f11f"; }
+.kx-icon-st-composite:before { content: "\f120"; }
+.kx-icon-st-heartbeat:before { content: "\f121"; }
+.kx-icon-st-kognitive:before { content: "\f122"; }
+.kx-icon-st-realtime:before { content: "\f123"; }
+.kx-icon-st-standard:before { content: "\f124"; }
+.kx-icon-st-transaction:before { content: "\f125"; }
+.kx-icon-standard-segment-h:before { content: "\f126"; }
+.kx-icon-standard-segment:before { content: "\f127"; }
+.kx-icon-standard:before { content: "\f128"; }
+.kx-icon-supertag:before { content: "\f129"; }
+.kx-icon-transaction:before { content: "\f12a"; }
+.kx-icon-web:before { content: "\f12b"; }
+.kx-mail:before { content: "\f12c"; }
+.kx-mobile:before { content: "\f12d"; }
+.kx-population-processing:before { content: "\f12e"; }
+.kx-processing-bubbles:before { content: "\f12f"; }
+.kx-web:before { content: "\f130"; }
