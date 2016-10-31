@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-b268a3cfecc452592413f3a7d4db4434.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-b268a3cfecc452592413f3a7d4db4434.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-b268a3cfecc452592413f3a7d4db4434.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-b268a3cfecc452592413f3a7d4db4434.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-493894106311566f968aa4385d9d1157.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-493894106311566f968aa4385d9d1157.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-493894106311566f968aa4385d9d1157.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-493894106311566f968aa4385d9d1157.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,34 +32,35 @@
 .kx-icon-desc:before { content: "\f10d"; }
 .kx-icon-devices:before { content: "\f10e"; }
 .kx-icon-envelope:before { content: "\f10f"; }
-.kx-icon-heartbeat:before { content: "\f110"; }
-.kx-icon-infinity:before { content: "\f111"; }
-.kx-icon-info:before { content: "\f112"; }
-.kx-icon-interchange:before { content: "\f113"; }
-.kx-icon-key:before { content: "\f114"; }
-.kx-icon-line-chart:before { content: "\f115"; }
-.kx-icon-link-brand:before { content: "\f116"; }
-.kx-icon-link-circle:before { content: "\f117"; }
-.kx-icon-link:before { content: "\f118"; }
-.kx-icon-machine-discovered:before { content: "\f119"; }
-.kx-icon-mobile-apps:before { content: "\f11a"; }
-.kx-icon-notifications:before { content: "\f11b"; }
-.kx-icon-pin:before { content: "\f11c"; }
-.kx-icon-population:before { content: "\f11d"; }
-.kx-icon-realtime:before { content: "\f11e"; }
-.kx-icon-report-h:before { content: "\f11f"; }
-.kx-icon-report:before { content: "\f120"; }
-.kx-icon-safari:before { content: "\f121"; }
-.kx-icon-st-composite:before { content: "\f122"; }
-.kx-icon-st-heartbeat:before { content: "\f123"; }
-.kx-icon-st-kognitive:before { content: "\f124"; }
-.kx-icon-st-realtime:before { content: "\f125"; }
-.kx-icon-st-standard:before { content: "\f126"; }
-.kx-icon-st-transaction:before { content: "\f127"; }
-.kx-icon-standard-segment-h:before { content: "\f128"; }
-.kx-icon-standard-segment:before { content: "\f129"; }
-.kx-icon-standard:before { content: "\f12a"; }
-.kx-icon-supertag:before { content: "\f12b"; }
-.kx-icon-transaction:before { content: "\f12c"; }
-.kx-icon-web:before { content: "\f12d"; }
-.kx-mail:before { content: "\f12e"; }
+.kx-icon-export:before { content: "\f110"; }
+.kx-icon-heartbeat:before { content: "\f111"; }
+.kx-icon-infinity:before { content: "\f112"; }
+.kx-icon-info:before { content: "\f113"; }
+.kx-icon-interchange:before { content: "\f114"; }
+.kx-icon-key:before { content: "\f115"; }
+.kx-icon-line-chart:before { content: "\f116"; }
+.kx-icon-link-brand:before { content: "\f117"; }
+.kx-icon-link-circle:before { content: "\f118"; }
+.kx-icon-link:before { content: "\f119"; }
+.kx-icon-machine-discovered:before { content: "\f11a"; }
+.kx-icon-mobile-apps:before { content: "\f11b"; }
+.kx-icon-notifications:before { content: "\f11c"; }
+.kx-icon-pin:before { content: "\f11d"; }
+.kx-icon-population:before { content: "\f11e"; }
+.kx-icon-realtime:before { content: "\f11f"; }
+.kx-icon-report-h:before { content: "\f120"; }
+.kx-icon-report:before { content: "\f121"; }
+.kx-icon-safari:before { content: "\f122"; }
+.kx-icon-st-composite:before { content: "\f123"; }
+.kx-icon-st-heartbeat:before { content: "\f124"; }
+.kx-icon-st-kognitive:before { content: "\f125"; }
+.kx-icon-st-realtime:before { content: "\f126"; }
+.kx-icon-st-standard:before { content: "\f127"; }
+.kx-icon-st-transaction:before { content: "\f128"; }
+.kx-icon-standard-segment-h:before { content: "\f129"; }
+.kx-icon-standard-segment:before { content: "\f12a"; }
+.kx-icon-standard:before { content: "\f12b"; }
+.kx-icon-supertag:before { content: "\f12c"; }
+.kx-icon-transaction:before { content: "\f12d"; }
+.kx-icon-web:before { content: "\f12e"; }
+.kx-mail:before { content: "\f12f"; }
