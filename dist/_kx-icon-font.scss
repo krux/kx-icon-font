@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-64fae4cc8becdb061ae2cec2b817dcc2.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-64fae4cc8becdb061ae2cec2b817dcc2.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-64fae4cc8becdb061ae2cec2b817dcc2.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-64fae4cc8becdb061ae2cec2b817dcc2.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-fc2b6643cf0fc2b75f30543a5ded6fa6.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-fc2b6643cf0fc2b75f30543a5ded6fa6.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-fc2b6643cf0fc2b75f30543a5ded6fa6.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-fc2b6643cf0fc2b75f30543a5ded6fa6.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -50,24 +50,25 @@
 .kx-icon-machine-discovered:before { content: "\f11f"; }
 .kx-icon-mobile-apps:before { content: "\f120"; }
 .kx-icon-notifications:before { content: "\f121"; }
-.kx-icon-pin:before { content: "\f122"; }
-.kx-icon-platform-segment:before { content: "\f123"; }
-.kx-icon-population:before { content: "\f124"; }
-.kx-icon-realtime:before { content: "\f125"; }
-.kx-icon-report-h:before { content: "\f126"; }
-.kx-icon-report:before { content: "\f127"; }
-.kx-icon-safari:before { content: "\f128"; }
-.kx-icon-st-composite:before { content: "\f129"; }
-.kx-icon-st-heartbeat:before { content: "\f12a"; }
-.kx-icon-st-kognitive:before { content: "\f12b"; }
-.kx-icon-st-realtime:before { content: "\f12c"; }
-.kx-icon-st-standard:before { content: "\f12d"; }
-.kx-icon-st-transaction:before { content: "\f12e"; }
-.kx-icon-standard-segment-h:before { content: "\f12f"; }
-.kx-icon-standard-segment:before { content: "\f130"; }
-.kx-icon-standard:before { content: "\f131"; }
-.kx-icon-supertag:before { content: "\f132"; }
-.kx-icon-transaction:before { content: "\f133"; }
-.kx-icon-web:before { content: "\f134"; }
-.kx-mail:before { content: "\f135"; }
-.kx-rejected:before { content: "\f136"; }
+.kx-icon-ott:before { content: "\f122"; }
+.kx-icon-pin:before { content: "\f123"; }
+.kx-icon-platform-segment:before { content: "\f124"; }
+.kx-icon-population:before { content: "\f125"; }
+.kx-icon-realtime:before { content: "\f126"; }
+.kx-icon-report-h:before { content: "\f127"; }
+.kx-icon-report:before { content: "\f128"; }
+.kx-icon-safari:before { content: "\f129"; }
+.kx-icon-st-composite:before { content: "\f12a"; }
+.kx-icon-st-heartbeat:before { content: "\f12b"; }
+.kx-icon-st-kognitive:before { content: "\f12c"; }
+.kx-icon-st-realtime:before { content: "\f12d"; }
+.kx-icon-st-standard:before { content: "\f12e"; }
+.kx-icon-st-transaction:before { content: "\f12f"; }
+.kx-icon-standard-segment-h:before { content: "\f130"; }
+.kx-icon-standard-segment:before { content: "\f131"; }
+.kx-icon-standard:before { content: "\f132"; }
+.kx-icon-supertag:before { content: "\f133"; }
+.kx-icon-transaction:before { content: "\f134"; }
+.kx-icon-web:before { content: "\f135"; }
+.kx-mail:before { content: "\f136"; }
+.kx-rejected:before { content: "\f137"; }
