@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-185b58dd62b357de22077b6206004200.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-185b58dd62b357de22077b6206004200.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-185b58dd62b357de22077b6206004200.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-185b58dd62b357de22077b6206004200.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-2a2ee2311221afe3e3be6a9bee3341e9.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-2a2ee2311221afe3e3be6a9bee3341e9.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-2a2ee2311221afe3e3be6a9bee3341e9.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-2a2ee2311221afe3e3be6a9bee3341e9.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -51,25 +51,26 @@
 .kx-icon-mobile-apps:before { content: "\f120"; }
 .kx-icon-notifications:before { content: "\f121"; }
 .kx-icon-ott:before { content: "\f122"; }
-.kx-icon-personalization-segment:before { content: "\f123"; }
-.kx-icon-pin:before { content: "\f124"; }
-.kx-icon-platform-segment:before { content: "\f125"; }
-.kx-icon-population:before { content: "\f126"; }
-.kx-icon-realtime:before { content: "\f127"; }
-.kx-icon-report-h:before { content: "\f128"; }
-.kx-icon-report:before { content: "\f129"; }
-.kx-icon-safari:before { content: "\f12a"; }
-.kx-icon-st-composite:before { content: "\f12b"; }
-.kx-icon-st-heartbeat:before { content: "\f12c"; }
-.kx-icon-st-kognitive:before { content: "\f12d"; }
-.kx-icon-st-realtime:before { content: "\f12e"; }
-.kx-icon-st-standard:before { content: "\f12f"; }
-.kx-icon-st-transaction:before { content: "\f130"; }
-.kx-icon-standard-segment-h:before { content: "\f131"; }
-.kx-icon-standard-segment:before { content: "\f132"; }
-.kx-icon-standard:before { content: "\f133"; }
-.kx-icon-supertag:before { content: "\f134"; }
-.kx-icon-transaction:before { content: "\f135"; }
-.kx-icon-web:before { content: "\f136"; }
-.kx-mail:before { content: "\f137"; }
-.kx-rejected:before { content: "\f138"; }
+.kx-icon-personalization-segment-population:before { content: "\f123"; }
+.kx-icon-personalization-segment:before { content: "\f124"; }
+.kx-icon-pin:before { content: "\f125"; }
+.kx-icon-platform-segment:before { content: "\f126"; }
+.kx-icon-population:before { content: "\f127"; }
+.kx-icon-realtime:before { content: "\f128"; }
+.kx-icon-report-h:before { content: "\f129"; }
+.kx-icon-report:before { content: "\f12a"; }
+.kx-icon-safari:before { content: "\f12b"; }
+.kx-icon-st-composite:before { content: "\f12c"; }
+.kx-icon-st-heartbeat:before { content: "\f12d"; }
+.kx-icon-st-kognitive:before { content: "\f12e"; }
+.kx-icon-st-realtime:before { content: "\f12f"; }
+.kx-icon-st-standard:before { content: "\f130"; }
+.kx-icon-st-transaction:before { content: "\f131"; }
+.kx-icon-standard-segment-h:before { content: "\f132"; }
+.kx-icon-standard-segment:before { content: "\f133"; }
+.kx-icon-standard:before { content: "\f134"; }
+.kx-icon-supertag:before { content: "\f135"; }
+.kx-icon-transaction:before { content: "\f136"; }
+.kx-icon-web:before { content: "\f137"; }
+.kx-mail:before { content: "\f138"; }
+.kx-rejected:before { content: "\f139"; }
