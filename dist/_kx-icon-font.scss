@@ -1,9 +1,9 @@
 @font-face {
   font-family: "kx-icon-font";
-  src: url("#{$kx-font-path}/kx-icon-font-2dfa911d38c7ef136c6ced2392755828.eot");
-  src: url("#{$kx-font-path}/kx-icon-font-2dfa911d38c7ef136c6ced2392755828.eot?#iefix") format("embedded-opentype"),
-    url("#{$kx-font-path}/kx-icon-font-2dfa911d38c7ef136c6ced2392755828.woff") format("woff"),
-    url("#{$kx-font-path}/kx-icon-font-2dfa911d38c7ef136c6ced2392755828.ttf") format("truetype");
+  src: url("#{$kx-font-path}/kx-icon-font-f49706c1c12ba86bffa4afae891d991b.eot");
+  src: url("#{$kx-font-path}/kx-icon-font-f49706c1c12ba86bffa4afae891d991b.eot?#iefix") format("embedded-opentype"),
+    url("#{$kx-font-path}/kx-icon-font-f49706c1c12ba86bffa4afae891d991b.woff") format("woff"),
+    url("#{$kx-font-path}/kx-icon-font-f49706c1c12ba86bffa4afae891d991b.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -51,8 +51,8 @@
 .kx-icon-mobile-apps:before { content: "\f120"; }
 .kx-icon-notifications:before { content: "\f121"; }
 .kx-icon-ott:before { content: "\f122"; }
-.kx-icon-personalization-segment-population:before { content: "\f123"; }
-.kx-icon-personalization-segment:before { content: "\f124"; }
+.kx-icon-personalization-segment:before { content: "\f123"; }
+.kx-icon-personalization-segments-population:before { content: "\f124"; }
 .kx-icon-pin:before { content: "\f125"; }
 .kx-icon-platform-segment:before { content: "\f126"; }
 .kx-icon-population:before { content: "\f127"; }
