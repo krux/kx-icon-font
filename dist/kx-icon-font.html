@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>kx-icon-font</title>
+		<style>
+		body {
+			margin:0;
+			padding:10px 20px;
+			background:#fff;
+			color:#222;
+			}
+		h1, div, footer {
+			font-family:"Helvetica Neue", Arial, sans-serif;
+			}
+		h1 {
+			margin:0 0 20px;
+			font-size:32px;
+			font-weight:normal;
+			}
+		h1 small {
+			font-size: 0.8em;
+			padding-left: 2em;
+		}
+		.icons {
+			margin-bottom:40px;
+			-webkit-column-count:5;
+			   -moz-column-count:5;
+			        column-count:5;
+			-webkit-column-gap:20px;
+			   -moz-column-gap:20px;
+			        column-gap:20px;
+			}
+		.icons__item,
+		.icons__item i {
+			line-height:2em;
+			cursor:pointer;
+			overflow:hidden;
+			}
+		.icons__item:hover {
+			color:#3c90be;
+			}
+		.icons__item i {
+			display:inline-block;
+			width:32px;
+			text-align:center;
+			}
+		.icons__item:hover i {
+			-webkit-transform:scale(1.5);
+			        transform:scale(1.5);
+			}
+		footer {
+			margin-top:40px;
+			font-size:14px;
+			color:#999;
+			}
+
+		@font-face {
+			font-family: "kx-icon-font";
+			src: url("./kx-icon-font-3f97d568c0518131c01ce833a617770f.eot");
+			src: url("./kx-icon-font-3f97d568c0518131c01ce833a617770f.eot?#iefix") format("embedded-opentype"), url("./kx-icon-font-3f97d568c0518131c01ce833a617770f.woff") format("woff"), url("./kx-icon-font-3f97d568c0518131c01ce833a617770f.ttf") format("truetype");
+			font-weight: normal;
+			font-style: normal;
+		}
+		.kx-icon {
+			font-family: "kx-icon-font";
+			display: inline-block;
+			font-style: normal;
+			speak: none;
+			-webkit-font-smoothing: antialiased;
+		}
+		.kx-approved:before {
+			content: "\f101";
+		}
+		.kx-chart-list:before {
+			content: "\f102";
+		}
+		.kx-chart-scatter:before {
+			content: "\f103";
+		}
+		.kx-cross-device-w:before {
+			content: "\f104";
+		}
+		.kx-cross-device:before {
+			content: "\f105";
+		}
+		.kx-icon-asc:before {
+			content: "\f106";
+		}
+		.kx-icon-bar-chart:before {
+			content: "\f107";
+		}
+		.kx-icon-campaign-segment:before {
+			content: "\f108";
+		}
+		.kx-icon-cart:before {
+			content: "\f109";
+		}
+		.kx-icon-chevron-down:before {
+			content: "\f10a";
+		}
+		.kx-icon-chevron-up:before {
+			content: "\f10b";
+		}
+		.kx-icon-close:before {
+			content: "\f10c";
+		}
+		.kx-icon-cog:before {
+			content: "\f10d";
+		}
+		.kx-icon-cogs:before {
+			content: "\f10e";
+		}
+		.kx-icon-composite:before {
+			content: "\f10f";
+		}
+		.kx-icon-cross-device:before {
+			content: "\f110";
+		}
+		.kx-icon-desc:before {
+			content: "\f111";
+		}
+		.kx-icon-devices:before {
+			content: "\f112";
+		}
+		.kx-icon-envelope:before {
+			content: "\f113";
+		}
+		.kx-icon-fast-lane:before {
+			content: "\f114";
+		}
+		.kx-icon-heartbeat:before {
+			content: "\f115";
+		}
+		.kx-icon-hem:before {
+			content: "\f116";
+		}
+		.kx-icon-infinity:before {
+			content: "\f117";
+		}
+		.kx-icon-info:before {
+			content: "\f118";
+		}
+		.kx-icon-interchange:before {
+			content: "\f119";
+		}
+		.kx-icon-key:before {
+			content: "\f11a";
+		}
+		.kx-icon-line-chart:before {
+			content: "\f11b";
+		}
+		.kx-icon-link-brand:before {
+			content: "\f11c";
+		}
+		.kx-icon-link-circle:before {
+			content: "\f11d";
+		}
+		.kx-icon-link:before {
+			content: "\f11e";
+		}
+		.kx-icon-machine-discovered:before {
+			content: "\f11f";
+		}
+		.kx-icon-mobile-apps:before {
+			content: "\f120";
+		}
+		.kx-icon-notifications:before {
+			content: "\f121";
+		}
+		.kx-icon-ott:before {
+			content: "\f122";
+		}
+		.kx-icon-personalization-segment:before {
+			content: "\f123";
+		}
+		.kx-icon-personalization-segments-population:before {
+			content: "\f124";
+		}
+		.kx-icon-pin:before {
+			content: "\f125";
+		}
+		.kx-icon-platform-segment:before {
+			content: "\f126";
+		}
+		.kx-icon-population:before {
+			content: "\f127";
+		}
+		.kx-icon-realtime:before {
+			content: "\f128";
+		}
+		.kx-icon-report-h:before {
+			content: "\f129";
+		}
+		.kx-icon-report:before {
+			content: "\f12a";
+		}
+		.kx-icon-safari:before {
+			content: "\f12b";
+		}
+		.kx-icon-st-composite:before {
+			content: "\f12c";
+		}
+		.kx-icon-st-heartbeat:before {
+			content: "\f12d";
+		}
+		.kx-icon-st-kognitive:before {
+			content: "\f12e";
+		}
+		.kx-icon-st-realtime:before {
+			content: "\f12f";
+		}
+		.kx-icon-st-standard:before {
+			content: "\f130";
+		}
+		.kx-icon-st-transaction:before {
+			content: "\f131";
+		}
+		.kx-icon-standard-segment-h:before {
+			content: "\f132";
+		}
+		.kx-icon-standard-segment:before {
+			content: "\f133";
+		}
+		.kx-icon-standard:before {
+			content: "\f134";
+		}
+		.kx-icon-supertag:before {
+			content: "\f135";
+		}
+		.kx-icon-transaction:before {
+			content: "\f136";
+		}
+		.kx-icon-web:before {
+			content: "\f137";
+		}
+		.kx-mail:before {
+			content: "\f138";
+		}
+		.kx-rejected:before {
+			content: "\f139";
+		}
+
+
+		</style>
+	</head>
+	<body>
+		<h1>kx-icon-font</h1>
+
+		<div class="icons" id="icons">
+			
+				<div class="icons__item" data-name="approved"><i class="kx-icon kx-approved"></i> kx-approved</div>
+			
+				<div class="icons__item" data-name="chart-list"><i class="kx-icon kx-chart-list"></i> kx-chart-list</div>
+			
+				<div class="icons__item" data-name="chart-scatter"><i class="kx-icon kx-chart-scatter"></i> kx-chart-scatter</div>
+			
+				<div class="icons__item" data-name="cross-device-w"><i class="kx-icon kx-cross-device-w"></i> kx-cross-device-w</div>
+			
+				<div class="icons__item" data-name="cross-device"><i class="kx-icon kx-cross-device"></i> kx-cross-device</div>
+			
+				<div class="icons__item" data-name="icon-asc"><i class="kx-icon kx-icon-asc"></i> kx-icon-asc</div>
+			
+				<div class="icons__item" data-name="icon-bar-chart"><i class="kx-icon kx-icon-bar-chart"></i> kx-icon-bar-chart</div>
+			
+				<div class="icons__item" data-name="icon-campaign-segment"><i class="kx-icon kx-icon-campaign-segment"></i> kx-icon-campaign-segment</div>
+			
+				<div class="icons__item" data-name="icon-cart"><i class="kx-icon kx-icon-cart"></i> kx-icon-cart</div>
+			
+				<div class="icons__item" data-name="icon-chevron-down"><i class="kx-icon kx-icon-chevron-down"></i> kx-icon-chevron-down</div>
+			
+				<div class="icons__item" data-name="icon-chevron-up"><i class="kx-icon kx-icon-chevron-up"></i> kx-icon-chevron-up</div>
+			
+				<div class="icons__item" data-name="icon-close"><i class="kx-icon kx-icon-close"></i> kx-icon-close</div>
+			
+				<div class="icons__item" data-name="icon-cog"><i class="kx-icon kx-icon-cog"></i> kx-icon-cog</div>
+			
+				<div class="icons__item" data-name="icon-cogs"><i class="kx-icon kx-icon-cogs"></i> kx-icon-cogs</div>
+			
+				<div class="icons__item" data-name="icon-composite"><i class="kx-icon kx-icon-composite"></i> kx-icon-composite</div>
+			
+				<div class="icons__item" data-name="icon-cross-device"><i class="kx-icon kx-icon-cross-device"></i> kx-icon-cross-device</div>
+			
+				<div class="icons__item" data-name="icon-desc"><i class="kx-icon kx-icon-desc"></i> kx-icon-desc</div>
+			
+				<div class="icons__item" data-name="icon-devices"><i class="kx-icon kx-icon-devices"></i> kx-icon-devices</div>
+			
+				<div class="icons__item" data-name="icon-envelope"><i class="kx-icon kx-icon-envelope"></i> kx-icon-envelope</div>
+			
+				<div class="icons__item" data-name="icon-fast-lane"><i class="kx-icon kx-icon-fast-lane"></i> kx-icon-fast-lane</div>
+			
+				<div class="icons__item" data-name="icon-heartbeat"><i class="kx-icon kx-icon-heartbeat"></i> kx-icon-heartbeat</div>
+			
+				<div class="icons__item" data-name="icon-hem"><i class="kx-icon kx-icon-hem"></i> kx-icon-hem</div>
+			
+				<div class="icons__item" data-name="icon-infinity"><i class="kx-icon kx-icon-infinity"></i> kx-icon-infinity</div>
+			
+				<div class="icons__item" data-name="icon-info"><i class="kx-icon kx-icon-info"></i> kx-icon-info</div>
+			
+				<div class="icons__item" data-name="icon-interchange"><i class="kx-icon kx-icon-interchange"></i> kx-icon-interchange</div>
+			
+				<div class="icons__item" data-name="icon-key"><i class="kx-icon kx-icon-key"></i> kx-icon-key</div>
+			
+				<div class="icons__item" data-name="icon-line-chart"><i class="kx-icon kx-icon-line-chart"></i> kx-icon-line-chart</div>
+			
+				<div class="icons__item" data-name="icon-link-brand"><i class="kx-icon kx-icon-link-brand"></i> kx-icon-link-brand</div>
+			
+				<div class="icons__item" data-name="icon-link-circle"><i class="kx-icon kx-icon-link-circle"></i> kx-icon-link-circle</div>
+			
+				<div class="icons__item" data-name="icon-link"><i class="kx-icon kx-icon-link"></i> kx-icon-link</div>
+			
+				<div class="icons__item" data-name="icon-machine-discovered"><i class="kx-icon kx-icon-machine-discovered"></i> kx-icon-machine-discovered</div>
+			
+				<div class="icons__item" data-name="icon-mobile-apps"><i class="kx-icon kx-icon-mobile-apps"></i> kx-icon-mobile-apps</div>
+			
+				<div class="icons__item" data-name="icon-notifications"><i class="kx-icon kx-icon-notifications"></i> kx-icon-notifications</div>
+			
+				<div class="icons__item" data-name="icon-ott"><i class="kx-icon kx-icon-ott"></i> kx-icon-ott</div>
+			
+				<div class="icons__item" data-name="icon-personalization-segment"><i class="kx-icon kx-icon-personalization-segment"></i> kx-icon-personalization-segment</div>
+			
+				<div class="icons__item" data-name="icon-personalization-segments-population"><i class="kx-icon kx-icon-personalization-segments-population"></i> kx-icon-personalization-segments-population</div>
+			
+				<div class="icons__item" data-name="icon-pin"><i class="kx-icon kx-icon-pin"></i> kx-icon-pin</div>
+			
+				<div class="icons__item" data-name="icon-platform-segment"><i class="kx-icon kx-icon-platform-segment"></i> kx-icon-platform-segment</div>
+			
+				<div class="icons__item" data-name="icon-population"><i class="kx-icon kx-icon-population"></i> kx-icon-population</div>
+			
+				<div class="icons__item" data-name="icon-realtime"><i class="kx-icon kx-icon-realtime"></i> kx-icon-realtime</div>
+			
+				<div class="icons__item" data-name="icon-report-h"><i class="kx-icon kx-icon-report-h"></i> kx-icon-report-h</div>
+			
+				<div class="icons__item" data-name="icon-report"><i class="kx-icon kx-icon-report"></i> kx-icon-report</div>
+			
+				<div class="icons__item" data-name="icon-safari"><i class="kx-icon kx-icon-safari"></i> kx-icon-safari</div>
+			
+				<div class="icons__item" data-name="icon-st-composite"><i class="kx-icon kx-icon-st-composite"></i> kx-icon-st-composite</div>
+			
+				<div class="icons__item" data-name="icon-st-heartbeat"><i class="kx-icon kx-icon-st-heartbeat"></i> kx-icon-st-heartbeat</div>
+			
+				<div class="icons__item" data-name="icon-st-kognitive"><i class="kx-icon kx-icon-st-kognitive"></i> kx-icon-st-kognitive</div>
+			
+				<div class="icons__item" data-name="icon-st-realtime"><i class="kx-icon kx-icon-st-realtime"></i> kx-icon-st-realtime</div>
+			
+				<div class="icons__item" data-name="icon-st-standard"><i class="kx-icon kx-icon-st-standard"></i> kx-icon-st-standard</div>
+			
+				<div class="icons__item" data-name="icon-st-transaction"><i class="kx-icon kx-icon-st-transaction"></i> kx-icon-st-transaction</div>
+			
+				<div class="icons__item" data-name="icon-standard-segment-h"><i class="kx-icon kx-icon-standard-segment-h"></i> kx-icon-standard-segment-h</div>
+			
+				<div class="icons__item" data-name="icon-standard-segment"><i class="kx-icon kx-icon-standard-segment"></i> kx-icon-standard-segment</div>
+			
+				<div class="icons__item" data-name="icon-standard"><i class="kx-icon kx-icon-standard"></i> kx-icon-standard</div>
+			
+				<div class="icons__item" data-name="icon-supertag"><i class="kx-icon kx-icon-supertag"></i> kx-icon-supertag</div>
+			
+				<div class="icons__item" data-name="icon-transaction"><i class="kx-icon kx-icon-transaction"></i> kx-icon-transaction</div>
+			
+				<div class="icons__item" data-name="icon-web"><i class="kx-icon kx-icon-web"></i> kx-icon-web</div>
+			
+				<div class="icons__item" data-name="mail"><i class="kx-icon kx-mail"></i> kx-mail</div>
+			
+				<div class="icons__item" data-name="rejected"><i class="kx-icon kx-rejected"></i> kx-rejected</div>
+			
+		</div>
+
+		
+
+		<h1>Usage</h1>
+		<pre><code>&lt;i class=&quot;kx-icon kx-<span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
+		
+
+		<footer>Generated by <a href="https://github.com/L2jLiga/grunt-webfonts">grunt-webfonts</a>.</footer>
+
+		<script>
+		(function() {
+			document.getElementById('icons').onclick = function(e) {
+				e = e || window.event;
+				var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
+				document.getElementById('name').innerHTML = name;
+				
+			}
+		})();
+		</script>
+	</body>
+</html>

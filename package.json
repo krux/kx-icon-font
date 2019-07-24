@@ -1,13 +1,14 @@
 {
-  "name": "kx-icon-font",
-  "version": "0.0.0",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-clean": "^0.4.1",
-    "grunt-webfont": "^0.5.4"
+  "name": "fonts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "icon-font-generator icons/*svg -o dist --selector \".kx-icon\" -p \"kx\" && cat dist/icons.css | sed -e 's/\\.\\//#{$kx-font-path}\\//' > dist/_kx-icon-font.scss && rm dist/icons.css"
   },
-  "engines": {
-    "node": "0.10.0"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "icon-font-generator": "^2.1.10"
   }
 }

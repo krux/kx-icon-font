@@ -6,24 +6,9 @@ KX Icon Font is suite of pictographic icons for easy scalable vector graphics on
 
 ## Installation
 
-This plugin requires Grunt 0.4. 
-
-###OS X
-
 ```
-brew install fontforge
+npm install
 ```
-
-###Linux
-
-```
-sudo apt-get install fontforge
-```
-
-### Windows
-
-* Download and install [fontforge](http://fontforge.github.io/en-US/downloads/windows/).
-* Add `C:\Program Files (x86)\FontForgeBuilds\bin` to your `PATH` environment variable.
 
 ## Usage
 
@@ -40,5 +25,5 @@ Example `i.kx-icon.kx-cross-device`
   npm install
   ```
 * Put new *.svg icons into `icons` folder without `kx-` in the name
-* Run `./node_modules/.bin/grunt`
+* Run `npm run build`
 * Commit your changes to the remote repository
